@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background: rgb(143, 143, 143);
+  background-image: url(pictwo.png);
+  font-family: "Work Sans";
+  font-weight: 300;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-left: 10%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  background: pink;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  float: left;
+}
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.topnav a {
+  float: right;
+  color: #080808;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: transparent;
+  color: transparent;
+}
+h2 {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+p {
+  text-align: center;
+ }
